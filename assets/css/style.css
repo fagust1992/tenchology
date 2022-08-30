@@ -1,0 +1,38 @@
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+      background: #fff;
+     font-family: reboto;
+  }
+
+         .navbar {
+              background: #28A745;
+          }
+          #menu a{
+          
+          color: #fff;
+          }
+          .container-fluid .dropdown-menu{
+              background: #28A745;
+          
+          }
+          
+          .container-fluid .dropdown-menu :hover{
+              background: #a8ada9;
+          
+          } 
+  
+
+          .formulario{
+              background: #28A745;
+              color: #fff;
+          }
+          
+          
+      footer{
+          background:rgb(250, 241, 241)
+      }

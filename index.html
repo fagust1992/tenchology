@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- ETIQUETAS METAS -->
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- icono de pagina -->
+	<link rel="shortcut icon" type="image/x-icon" href="assets/img/LOGO.png">
+	<!-- titulo -->
+	<title>technology</title>
+	<!-- boostrap cdn CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+	integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<!-- ESTILOS PROPIOS CSS -->
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+	
+	<!-- FONTAWESOME PARA LO ICONOS -->
+	<script
+	src="https://kit.fontawesome.com/1887a2061c.js"
+	crossorigin="anonymous"
+  ></script>
+</head>
+
+
+		<body style="min-height: 2000px; padding-top:56px;">   	
+		
+			<nav class="navbar navbar-expand-lg navbar-dark  fixed-top ">  <!-- PROPIEDADES PARA EFECTO DE MENU FIJO -->
+				<div class="container-fluid ">  <!-- CONTENEDOR PRINCIPAL DE MENU  -->
+					<a href="#" class="navbar-brand">Technology</a>
+		
+					<!-- Boton para el menu movil -->
+					<button 
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#menu"
+						aria-controls="menu"
+						aria-expanded="false"
+					
+					
+					>
+						<span class="navbar-toggler-icon "></span>
+					</button>
+		
+					<!-- Menu de navegacion -->
+					<div class="collapse navbar-collapse justify-content-end " id="menu">
+						<ul class="navbar-nav  mb-2 mb-lg-0">
+							<li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+		                    <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
+							<li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
+							<li class="nav-item "><a href="#" class="nav-link disabled">Disabled</a></li>
+						</ul>
+		
+						<form action="" class=" col-4  col-sm-4 d-sm-flex col-md-3">
+							<input type="search" class="form-control me-2" placeholder="Buscar" aria-label="Buscar">
+							<button class="btn btn-outline-light" type="button">Buscar</button>
+						</form>
+					</div>
+				</div>
+			</nav>   <!--  FIN DE Menu de navegacion -->
+		
+
+                 <!--  SILDER automatico boostrap componentes -->
+			<div id="SILDER" class="carousel slide  " data-bs-ride="carousel">
+				<div class="carousel-inner">
+				  <div class="carousel-item active" data-bs-interval="3000">
+					<img src="./assets/img/s3.jpg " class="d-block w-100"   alt="">
+				  </div>
+				  <div class="carousel-item" data-bs-interval="2000">
+					<img src="./assets/img/s2.jpg" class="d-block w-100" alt="">
+				  </div>
+				  <div class="carousel-item">
+					<img src="./assets/img/s1.jpg" class="d-block w-100" alt="">
+				  </div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+				  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				  <span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+				  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				  <span class="visually-hidden">Next</span>
+				</button>
+			  </div>
+ <!--  fin SILDER-->
+
+
+
+	<!-- contendio principal de pagina-->
+	<div class="container-fluid ">    <!-- CONTENEDOR-->
+		
+		<div class="row p-3 ">  <!-- COLUMNAS-->
+		  <div class="col-12 mb-3 col-md-6 col-lg-4">    <!--  CODIGOS PARA HACER RESPONSIVE LA COLUMNAS (CARDS)-->
+				<div class="card p-3" >   <!--  CARTA-->
+					<img class="card-img-top " src="./assets/img/2.jpg" alt="">
+					<div class="card-body">   <!--  CUERPO DE CARTA-->
+						<h5 class="card-title">MAC</h5>
+						<p class="card-text">Macbook Pro 15,4 Intel Core i7 Seminuevo
+
+							Memoria RAM: 8GB
+							Memoria almacenamiento: 256GB SSD
+							Procesador Intel Core i7-3635QM de 4 núcleos de 2.4 GHz para un rendimiento óptimo Turbo boost de 3.4 GHz
+							Tarjeta de video NVIDIA GeForce GT 650M con 1 GB y tarjeta integrada Intel HD Graphics 4000
+							
+							Tamaño Pantalla: 15.4"
+							Modelo: ME664LLA
+							Intel HD Graphics 4000
+							Incluye cargador.
+							</p>
+						<h6 class="card-subtitle text-muted mb-2">	Tienda Fisica</h6>
+						<a href="#" class="btn btn-outline-primary">COMPRAR</h6></a>
+						<a href="#" class="btn btn-outline-primary"><h6><i class="fas fa-map-marker-alt"></i>Santiago</h6></a>
+                
+					</div>
+					<hr />
+					<div class= "footer-card row ">   <!--  FOOTER DE CARTA-->
+					  <div class="col col-sm-8 col-md-6 text-end py-1">
+						<h6 class="text-muted text-decoration-line-through">
+						  $2.000.000
+						</h6>
+					  </div>
+					  <div class="col col-sm-4 col-md-6 text-center">
+						<h5 class="text-success">$1.000.000</h5>
+					  </div>
+					</div>
+				</div>
+               <!--  duplique la primera columna para tener todas la cartas-->
+			</div>
+			<div class="col-12 mb-3 col-md-6 col-lg-4">
+				<div class="card p-3" >
+					<img class="card-img-top" src="./assets/img/4.jpg" alt="">
+					<div class="card-body">
+						<h5 class="card-title">APPLE</h5>
+						<p class="card-text">Macbook Pro 15,4 Intel Core i7 Seminuevo
+
+							Memoria RAM: 8GB
+							Memoria almacenamiento: 256GB SSD
+							Procesador Intel Core i7-3635QM de 4 núcleos de 2.4 GHz para un rendimiento óptimo Turbo boost de 3.4 GHz
+							Tarjeta de video NVIDIA GeForce GT 650M con 1 GB y tarjeta integrada Intel HD Graphics 4000
+							
+							Tamaño Pantalla: 15.4"
+							Modelo: ME664LLA
+							Intel HD Graphics 4000
+							Incluye cargador.
+							</p>
+						<h6 class="card-subtitle text-muted mb-2">	Tienda Fisica</h6>
+						<a href="#" class="btn btn-outline-primary">COMPRAR</h6></a>
+						<a href="#" class="btn btn-outline-primary"><h6><i class="fas fa-map-marker-alt"></i>Santiago</h6></a>
+                
+					</div>
+					<hr />
+					<div class= "footer-card row ">
+					  <div class="col col-sm-8 col-md-6 text-end py-1">
+						<h6 class="text-muted text-decoration-line-through">
+						  $2.000.000
+						</h6>
+					  </div>
+					  <div class="col col-sm-4 col-md-6 text-center">
+						<h5 class="text-success">$1.000.000</h5>
+					  </div>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="col-12 mb-3 col-md-6 col-lg-4">
+				<div class="card  p-3" >
+					<img class="card-img-top" src="./assets/img/3.jpg" alt="">
+					<div class="card-body">
+						<h5 class="card-title">	NIKON</h5>
+						<p class="card-text">Macbook Pro 15,4 Intel Core i7 Seminuevo
+
+							Memoria RAM: 8GB
+							Memoria almacenamiento: 256GB SSD
+							Procesador Intel Core i7-3635QM de 4 núcleos de 2.4 GHz para un rendimiento óptimo Turbo boost de 3.4 GHz
+							Tarjeta de video NVIDIA GeForce GT 650M con 1 GB y tarjeta integrada Intel HD Graphics 4000
+							
+							Tamaño Pantalla: 15.4"
+							Modelo: ME664LLA
+							Intel HD Graphics 4000
+							Incluye cargador.
+							</p>
+						<h6 class="card-subtitle text-muted mb-2">	Tienda Fisica</h6>
+						<a href="#" class="btn btn-outline-primary">COMPRAR</h6></a>
+						<a href="#" class="btn btn-outline-primary"><h6><i class="fas fa-map-marker-alt"></i>Santiago</h6></a>
+                
+					</div>
+					<hr />
+					<div class= "footer-card row ">
+					  <div class="col col-sm-8 col-md-6 text-end py-1">
+						<h6 class="text-muted text-decoration-line-through">
+						  $2.000.000
+						</h6>
+					  </div>
+					  <div class="col col-sm-4 col-md-6 text-center">
+						<h5 class="text-success">$1.000.000</h5>
+					  </div>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="col-12 mb-3 col-md-6 col-lg-4">
+				<div class="card p-3" >
+					<img class="card-img-top" src="./assets/img/5.jpg" alt="">
+					<div class="card-body">
+						<h5 class="card-title">TECLADO</h5>
+						<p class="card-text">Macbook Pro 15,4 Intel Core i7 Seminuevo
+
+							Memoria RAM: 8GB
+							Memoria almacenamiento: 256GB SSD
+							Procesador Intel Core i7-3635QM de 4 núcleos de 2.4 GHz para un rendimiento óptimo Turbo boost de 3.4 GHz
+							Tarjeta de video NVIDIA GeForce GT 650M con 1 GB y tarjeta integrada Intel HD Graphics 4000
+							
+							Tamaño Pantalla: 15.4"
+							Modelo: ME664LLA
+							Intel HD Graphics 4000
+							Incluye cargador.
+							</p>
+						<h6 class="card-subtitle text-muted mb-2">	Tienda Fisica</h6>
+						<a href="#" class="btn btn-outline-primary">COMPRAR</h6></a>
+						<a href="#" class="btn btn-outline-primary"><h6><i class="fas fa-map-marker-alt"></i>Santiago</h6></a>
+                
+					</div>
+					<hr />
+					<div class= "footer-card row ">
+					  <div class="col col-sm-8 col-md-6 text-end py-1">
+						<h6 class="text-muted text-decoration-line-through">
+						  $2.000.000
+						</h6>
+					  </div>
+					  <div class="col col-sm-4 col-md-6 text-center">
+						<h5 class="text-success">$1.000.000</h5>
+					  </div>
+					</div>
+				</div>
+
+			</div>
+			<div class="col-12 mb-3 col-md-6 col-lg-4">
+				<div class="card p-3" >
+					<img class="card-img-top" src="./assets/img/6.jpg" alt="">
+					<div class="card-body">
+						<h5 class="card-title">TABLET</h5>
+						<p class="card-text">Macbook Pro 15,4 Intel Core i7 Seminuevo
+
+							Memoria RAM: 8GB
+							Memoria almacenamiento: 256GB SSD
+							Procesador Intel Core i7-3635QM de 4 núcleos de 2.4 GHz para un rendimiento óptimo Turbo boost de 3.4 GHz
+							Tarjeta de video NVIDIA GeForce GT 650M con 1 GB y tarjeta integrada Intel HD Graphics 4000
+							
+							Tamaño Pantalla: 15.4"
+							Modelo: ME664LLA
+							Intel HD Graphics 4000
+							Incluye cargador.
+							</p>
+						<h6 class="card-subtitle text-muted mb-2">	Tienda Fisica</h6>
+						<a href="#" class="btn btn-outline-primary">COMPRAR</h6></a>
+						<a href="#" class="btn btn-outline-primary"><h6><i class="fas fa-map-marker-alt"></i>Santiago</h6></a>
+                
+					</div>
+					<hr />
+					<div class= "footer-card row ">
+					  <div class="col col-sm-8 col-md-6 text-end py-1">
+						<h6 class="text-muted text-decoration-line-through">
+						  $2.000.000
+						</h6>
+					  </div>
+					  <div class="col col-sm-4 col-md-6 text-center">
+						<h5 class="text-success">$1.000.000</h5>
+					  </div>
+					</div>
+				</div>
+
+			</div>
+			<div class="col-12 mb-3 col-md-6 col-lg-4">
+				<div class="card p-3" >
+					<img class="card-img-top" src="./assets/img/8.jpg" alt="">
+					<div class="card-body">
+						<h5 class="card-title">CAMERA</h5>
+						<p class="card-text">Macbook Pro 15,4 Intel Core i7 Seminuevo
+
+							Memoria RAM: 8GB
+							Memoria almacenamiento: 256GB SSD
+							Procesador Intel Core i7-3635QM de 4 núcleos de 2.4 GHz para un rendimiento óptimo Turbo boost de 3.4 GHz
+							Tarjeta de video NVIDIA GeForce GT 650M con 1 GB y tarjeta integrada Intel HD Graphics 4000
+							
+							Tamaño Pantalla: 15.4"
+							Modelo: ME664LLA
+							Intel HD Graphics 4000
+							Incluye cargador.
+							</p>
+						<h6 class="card-subtitle text-muted mb-2">	Tienda Fisica</h6>
+						<a href="#" class="btn btn-outline-primary">COMPRAR</h6></a>
+						<a href="#" class="btn btn-outline-primary"><h6><i class="fas fa-map-marker-alt"></i>Santiago</h6></a>
+                
+					</div>
+					<hr />
+					<div class= "footer-card row ">
+					  <div class="col col-sm-8 col-md-6 text-end py-1">
+						<h6 class="text-muted text-decoration-line-through">
+						  $2.000.000
+						</h6>
+					  </div>
+					  <div class="col col-sm-4 col-md-6 text-center">
+						<h5 class="text-success">$1.000.000</h5>
+					  </div>
+					</div>
+				</div>
+
+			</div>
+			  </div>
+
+			  <!--  formulario-->
+				<section class="formulario">
+					<div class="row mt-3 justify-content-center">
+						<div class="col-8  text-center">
+							<label for="name" class="form-label ">SOLICITA UNA COTIZACION</label>
+							<form action="#">
+								<div class="mb-3">
+									<label for="name" class="form-label ">NOMBRE</label>
+									<input type="text" class="form-control" id="name"  >
+								
+								</div>
+								<div class="mb-3">
+									<label for="correo" class="form-label">Correo Electronico</label>
+									<input type="text" class="form-control"  id="correo" aria-describedby="ayuda-correo">
+									<div id="ayuda-correo" class="form-text text-white">
+										Te enviaremos un mensaje de confirmación.
+									</div>
+								</div>
+			
+								<div class="mb-3">
+									<label for="mensaje" class="form-label">COTIZA</label>
+									<textarea class="form-control" name="mensaje" id="mensaje"></textarea>
+								</div>
+			    
+								<button type="button" class="btn btn-light mb-2 justify-content-center">
+									Enviar
+								  </button>
+		
+								
+							</form>
+							<!-- fin de formulario-->
+						</div>
+			
+				  </div>
+				</section>
+			
+				<footer class="footer  text-center pt-3" >
+					<h2 class="fw-bold color-footer">Technology</h2>
+					<p class="text-muted mb-3">
+					  (c) Copyright 2022  Unete 
+					</p>
+					<p class="text-muted mb-3">
+						Francisco August
+				  </footer>
+			  
+	
+	</div>   
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+	 crossorigin="anonymous"></script>
+		</body>
+		</html>
