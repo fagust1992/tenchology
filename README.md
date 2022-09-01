@@ -1,7 +1,7 @@
 
-![Inmobiliaria San Jose](https://raw.githubusercontent.com/fagust1992/cv/main/img/imagen-readme-wonderland.png "technology")
+![wonderland(https://raw.githubusercontent.com/fagust1992/cv/main/img/imagen-readme-wonderland.png "technology")
 link web:
-[technology](https://technology1992.netlify.app/)
+[wonderland](https://lovely-sherbet-a98514.netlify.app/)
 
 #### Bienvenido al Repositiorio de Wonderland 💻🕶I
  valor aplicando un rediseño de la página actual, para entregar una interfaz más amigable, con información bien jerarquizada, también se muestran las recetas Wonderland en la carta y precios, y en cada receta se ofrece la informacion necesaria para la elaboración de esta 
