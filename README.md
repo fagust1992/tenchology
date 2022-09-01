@@ -1,5 +1,4 @@
-
-![wonderland(https://raw.githubusercontent.com/fagust1992/cv/main/img/imagen-readme-wonderland.png "technology")
+![wonderland](https://raw.githubusercontent.com/fagust1992/cv/main/img/imagen-readme-wonderland.png "wonderland")
 link web:
 [wonderland](https://lovely-sherbet-a98514.netlify.app/)
 
