@@ -1,6 +1,6 @@
 ![wonderland](https://raw.githubusercontent.com/fagust1992/cv/main/img/imagen-readme-Ecommerce-technology.png "technology")
 link web:
-[wonderland](https://technology1992.netlify.app/)
+[technology](https://technology1992.netlify.app/)
 
 #### Bienvenido al Repositiorio de Tecnology  💻🕶I
 “ Tecnology es una pagina web(responsive):Propuesta de valor aplicando un diseño de las páginas actuales ecommerce, para entregar una interfaz más amigable, con la información clara y bien jerarquizada, también se muestran los productos de tecnologia por categorías.
