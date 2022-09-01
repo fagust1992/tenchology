@@ -1,13 +1,12 @@
-![wonderland](https://raw.githubusercontent.com/fagust1992/cv/main/img/imagen-readme-wonderland.png "wonderland")
+![wonderland](https://raw.githubusercontent.com/fagust1992/cv/main/img/imagen-readme-Ecommerce-technology.png "technology")
 link web:
-[wonderland](https://lovely-sherbet-a98514.netlify.app/)
+[wonderland](https://technology1992.netlify.app/)
 
-#### Bienvenido al Repositiorio de Wonderland 💻🕶I
- valor aplicando un rediseño de la página actual, para entregar una interfaz más amigable, con información bien jerarquizada, también se muestran las recetas Wonderland en la carta y precios, y en cada receta se ofrece la informacion necesaria para la elaboración de esta 
+#### Bienvenido al Repositiorio de Tecnology  💻🕶I
+“ Tecnology es una pagina web(responsive):Propuesta de valor aplicando un diseño de las páginas actuales ecommerce, para entregar una interfaz más amigable, con la información clara y bien jerarquizada, también se muestran los productos de tecnologia por categorías.
 
 ## Install
-la pagina web estatica no requiere ningun comando ya que esta desarrollada en html css y javaScript.
+la pagina web estatica no requiere ningun comando ya que esta desarrollada en html css boostrapp
 
 ## Diseño 💻
  Contraste: El contraste no dificulta la legibilidad y entendimiento de la  web, es una página limpia, con un fondo blanco , los títulos, botones de un color diferente, la cual la hace muy amena a la vista, armónica.
-
